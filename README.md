@@ -31,11 +31,11 @@ The folder will contain CSV, JSON, and XML files for processing.
 
 -> Step 2: AWS Setup
 * Create an S3 Bucket:
-- Store raw and transformed data files in this bucket.
+**- Store raw and transformed data files in this bucket.
 
 * Set Up AWS RDS:
-- Create a MySQL or PostgreSQL RDS instance.
-- Configure security groups to allow access from your local machine or Lambda functions.
+**- Create a MySQL or PostgreSQL RDS instance.
+**- Configure security groups to allow access from your local machine or Lambda functions.
 
 * Set Up AWS Glue:
 - Create a Glue crawler to detect schema and manage ETL jobs.
