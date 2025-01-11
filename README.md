@@ -25,12 +25,11 @@ This extended project aims to integrate AWS services into a robust ETL (Extract,
 The folder will contain CSV, JSON, and XML files for processing.
 
 ## Project Steps
--> Step 1: Gather Data Files
+### -> Step 1: Gather Data Files
   * Download and unzip the dataset to obtain multiple file formats.
   * Verify the presence of CSV, JSON, and XML files in the project folder.
 
-
--> Step 2: AWS Setup
+### -> Step 2: AWS Setup
   * Create an S3 Bucket:
     - Store raw and transformed data files in this bucket.
   
@@ -41,8 +40,7 @@ The folder will contain CSV, JSON, and XML files for processing.
   * Set Up AWS Glue:
     - Create a Glue crawler to detect schema and manage ETL jobs.
 
-
--> Step 3: Import Libraries and Configure AWS Resources
+### -> Step 3: Import Libraries and Configure AWS Resources
   * Required Libraries:
     - boto3: Interact with AWS S3 and RDS.
     - pandas: Data manipulation.
@@ -50,8 +48,7 @@ The folder will contain CSV, JSON, and XML files for processing.
   
   * Set up AWS credentials in environment variables or AWS config files for secure access.
 
-
--> Step 4: Define Functions for ETL with AWS Integration
+### -> Step 4: Define Functions for ETL with AWS Integration
   * Extract Data:
     - Upload raw files to S3.
     - Download raw files from S3 for processing.
@@ -67,13 +64,11 @@ The folder will contain CSV, JSON, and XML files for processing.
   * Automate with AWS Glue:
     - Use Glue for transformation and schema detection.
 
-
--> Step 5: Logging
+### -> Step 5: Logging
   * Use Python’s logging library to track each ETL phase.
   * Save logs in a local file or upload them to S3 for centralized storage.
 
-
--> Step 6: Execution
+### -> Step 6: Execution
   * Upload Raw Data to S3:
     - Extract and upload files to the S3 bucket.
   
