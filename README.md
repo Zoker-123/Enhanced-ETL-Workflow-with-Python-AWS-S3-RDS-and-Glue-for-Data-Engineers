@@ -83,16 +83,6 @@ The folder will contain CSV, JSON, and XML files for processing.
   * Monitor Logs:
     - Ensure logs capture the entire pipeline execution.
 
-
-Summary of AWS Services You Will Use:
-Service	Purpose
-S3	Store raw and transformed data.
-RDS	Store and query transformed data.
-Glue (optional)	Automate schema inference and transformations.
-IAM	Secure access to AWS services.
-CloudWatch	Monitor and log pipeline execution.
-
-
 ## Conclusion:
 
 This project integrates AWS services to simulate a realistic cloud-based ETL workflow. Data engineers benefit from the scalability, monitoring, and automation provided by AWS. Proper logging ensures traceability, simplifying debugging and audits.
